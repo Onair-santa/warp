@@ -284,7 +284,7 @@ exit
 
 clear
 echo "--------------------------------------------"
-echo "甬哥Github项目  ：github.com/yonggekkk"
+echo "Github  ：github.com/yonggekkk"
 echo -e "${yellow}By --> Peyman * Github.com/Ptechgithub *${rest}"
 echo "--------------------------------------------"
 echo""
