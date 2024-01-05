@@ -34,7 +34,7 @@ cfwarpIP(){
 if [[ ! -f "warpendpoint" ]]; then
 echo "Download warp preferred program"
 if [[ -n $cpu ]]; then
-curl -L -o warpendpoint -# --retry 2 https://raw.githubusercontent.com/Ptechgithub/warp/main/endip/$cpu
+curl -L -o warpendpoint -# --retry 2 https://raw.githubusercontent.com/Onair-santa/warp/main/endip/$cpu
 fi
 fi
 }
@@ -286,6 +286,7 @@ clear
 echo "--------------------------------------------"
 echo "Github  ：github.com/yonggekkk"
 echo -e "${yellow}By --> Peyman * Github.com/Ptechgithub *${rest}"
+echo -e "${purple}By --> Onair-santa * Github.com/Onair-santa *${rest}"
 echo "--------------------------------------------"
 echo""
 echo -e "${purple}1.${green}IPV4 preferred peer IP${rest}"
